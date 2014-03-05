@@ -90,6 +90,7 @@ class readDataThread(QtCore.QThread):
         QtCore.QThread.__init__(self)
 	self.dataFile = dataFile
 	print(self.dataFile)
+	print(self.dataFile)
 	print("hiiiiii!!!!!!!")
 
         #write the initialization here
